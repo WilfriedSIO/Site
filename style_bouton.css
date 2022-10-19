@@ -1,0 +1,37 @@
+body
+{
+	background-color: black;
+	text-align:center;
+}
+h1
+{ 
+     color:hotpink;
+     font-family:verdana
+     font-size:30em;
+
+}
+div
+{
+	border:2px solid purple;
+	border-radius:26px;
+	width:50%;
+	margin-left:25%;
+	margin-right: 35%;
+	padding:3px;
+} 
+
+button
+{
+	width:300px;
+	border:5px solid black;
+	border-radius:25px;
+	background-color:darkgreen;
+	padding:30px 50px;
+}
+button:hover
+{
+	color: darkgreen;
+	background-color:black;
+	border:2px solid green;
+	transform:rotateZ(2deg);
+}
