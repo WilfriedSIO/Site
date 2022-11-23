@@ -1,0 +1,58 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1, h2, H3{
+    background-color: skyblue;
+    border: solid 2px blue;
+    border-radius: 3px;
+}
+
+div{
+    border-radius: 8px;
+}
+header h1, footer h2{
+    background-color: skyblue;
+    border: 1px solid blue;
+    color: #ffff;
+    font-family: 'Courier New', Courier, monospace;
+    align-content: center;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin: 10px auto;
+    
+}
+
+main div{
+    width: 30%;
+    height: auto;
+    border: solid 1px blue;
+}
+
+.cardOne{
+    background-color: yellowgreen;
+}
+.cardTwo{
+    background-color: lime;
+}
+
+
+img{
+    width: 150px;
+    height: 150px;
+}
