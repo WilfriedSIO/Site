@@ -1,0 +1,10 @@
+
+    function affichagetableau() {
+
+        document.write("table border=2 width=30%;>");
+        for (var i =0, i <=5; i++) {
+            document.write("<tr> <td>*</td> <td>*</td> <td>*</td> </tr>")
+        
+        }
+        document.write("</table>");
+    }        
