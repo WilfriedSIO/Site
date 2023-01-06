@@ -1,0 +1,43 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    color: gray;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    color: goldenrod;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#container{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#container > *{
+    border: 1px solid blue;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: gold;
+    transition: 0.2s;
+}
+#container > *:hover{
+   background-color: rgb(71, 43, 199);
+   cursor: pointer;
+}
+
+.red{
+    background-color: rgb(119, 0, 255)!important;
+}
+.green{
+    background-color: rgb(209, 20, 36)!important;
+}
