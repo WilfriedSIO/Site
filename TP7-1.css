@@ -26,9 +26,9 @@ ul li{
 }
 
 ul li:hover{
-    background-color: blue;
+    background-color: violet;
     color: chocolate;
     width: 50%;
-    border: solid 2px aqua;
+    border: solid 2px red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
