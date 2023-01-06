@@ -1,0 +1,33 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100wh;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    margin: 20px;
+}
+button{
+    padding: 20px;
+    margin: 30px;
+}
+#result{
+    background-color: rgb(196, 97, 31);
+    text-align: center;
+    padding: 30px;
+    width: 40%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 50px;
+}
